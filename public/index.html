@@ -5,13 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>resume-app</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine|Jura|Signika|Abel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">      
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Resume</title>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but resume-app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but this website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script>
+    var gmap,
+      gmapEl = document.createElement('div'),
+      infoWindow,
+      marker,
+      position = {
+        lat : 25.091447,
+        lng : 121.447331
+      }
+      
+    function initMap() {
+
+      gmap = new google.maps.Map(gmapEl,{
+        zoom: 15,
+        center: position
+      })
+      infoWindow = new google.maps.InfoWindow({
+        content: `
+        <div class="headline">
+          <div class="ct-icon">
+            <i class="fas fa-warehouse"></i>
+          </div>
+          <p class="ct-text">Vergil's Workshop.</p>
+        </div>
+        `
+      });
+      
+
+      marker = new google.maps.Marker({
+        position: position,
+        map: gmap,
+        title: "Vergil's workshop"
+      })
+
+      marker.addListener('click',function(){
+        infoWindow.open(gmap, marker);  
+      })
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk5f1hdSvXumRbLdCynyJa45Cpaj_fxxw&callback=initMap&language=zh-TW&region=TW">
+    </script>
   </body>
 </html>
