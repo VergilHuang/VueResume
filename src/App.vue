@@ -9,14 +9,14 @@
         </transition>
       </div>
     </div>
+    <Indicator/>
   </div>
 </template>
 
 <script>
 import Navigation from './views/Navigation.vue';
 import PersonInfo from './views/PersonInfo.vue';
-
-
+import Indicator from './views/Indicator.vue';
 
 export default {
   name: 'App',
@@ -24,7 +24,8 @@ export default {
   },
   components:{
     Navigation,
-    PersonInfo
+    PersonInfo,
+    Indicator
   },
 }
 

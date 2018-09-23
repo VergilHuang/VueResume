@@ -1,6 +1,7 @@
 @import "init";
 @import "_vue";
 
+
 $content_width: 1280px;
 $nav_height: 68px;
 $person_width: 280px;
@@ -276,12 +277,7 @@ body{
 	    transition: all .5s ease;
 
 		em{
-			color: #41b2f4;
 			font-style: normal;
-		}
-
-		strong{
-			color: #f442bf;
 		}
 
 		.t-link{
@@ -318,13 +314,13 @@ body{
 			}
 		}
 
-		@import "_about";
+		// @import "_about";
 
-		@import "_resume";
+		// @import "_resume";
 		
-		@import "_portfolio";
+		// @import "_portfolio";
 		
-		@import "_contact"
+		// @import "_contact"
 	}
 }
 

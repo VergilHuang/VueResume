@@ -30,7 +30,7 @@
 		<section>
 			<h3>Workshop Position</h3>
 			<div class="c-map shadower">
-				<div id="map"></div>	
+				<GoogleMap />
 			</div>
 		</section>
 	</div>
@@ -38,11 +38,16 @@
 
 <script>
 
+import GoogleMap from './GoogleMap.vue';
+
 export default {
 	name: 'Contact',
 	mounted: function(){
 		document.getElementById('map').appendChild(gmapEl);
 		gmapEl.style.height = '100%';
+	},
+	components: {
+		GoogleMap
 	}
 }
 
