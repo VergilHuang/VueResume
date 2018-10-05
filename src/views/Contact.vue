@@ -42,10 +42,6 @@ import GoogleMap from './GoogleMap.vue';
 
 export default {
 	name: 'Contact',
-	mounted: function(){
-		document.getElementById('map').appendChild(gmapEl);
-		gmapEl.style.height = '100%';
-	},
 	components: {
 		GoogleMap
 	}

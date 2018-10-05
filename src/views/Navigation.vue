@@ -6,41 +6,40 @@ export default {
 	data: function(){
 		return {
 			desktopSize: document.body.clientWidth,
-    		menu_opened: false
+			menu_opened: false
 		}
 	},
 	beforeMount(){
 		window.onresize = this._detectSize;
 	},
 	methods: {
-		beActive(event){
-
+		beActive(){
 			if(this.menu_opened){
-	      		this.toggleMenu();  
-	    	}
-	    	// if on mobile device, include the smooth scroll-to function
-	    	if(this.desktopSize <= 680){
-		      	animateScrollTo(document.getElementById('navigationBar'),{
-		        	speed: 1200
-		      	});
-	    	}
+				this.toggleMenu();  
+			}
+			// if on mobile device, include the smooth scroll-to function
+			if(this.desktopSize <= 680){
+				animateScrollTo(document.getElementById('navigationBar'),{
+				speed: 1200
+				});
+			}
 		},
-	    toggleMenu(){
-	      let menu = document.getElementById('menu-panel');
-	      
-	      if(this.menu_opened){
-	        menu.style.height = '0';
-	        menu.style.top = '10px';
-	      }else{
-	        menu.style.height = '244px';
-	        menu.style.top = '30px';
-	      }
-	      this.menu_opened = !this.menu_opened;
-	    },
-	    _detectSize(){
-	      this.desktopSize = document.body.clientWidth;;
-	      if(this.desktopSize <= 680){
-	        this.menu_opened = false;
+		toggleMenu(){
+			let menu = document.getElementById('menu-panel');
+
+		if(this.menu_opened){
+			menu.style.height = '0';
+			menu.style.top = '10px';
+		}else{
+			menu.style.height = '244px';
+			menu.style.top = '30px';
+		}
+			this.menu_opened = !this.menu_opened;
+		},
+		_detectSize(){
+			this.desktopSize = document.body.clientWidth;
+			if(this.desktopSize <= 680){
+				this.menu_opened = false;
 			}
 		}
 	}

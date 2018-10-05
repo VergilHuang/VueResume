@@ -83,12 +83,12 @@
 	}
 
 	img{
-	    position: absolute;
-	    width: 50px;
-	    height: 50px;
-	    top: 31px;
-	    left: 28px;
-	    animation: rotate-3d .5s linear infinite;
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		top: 31px;
+		left: 28px;
+		animation: rotate-3d .5s linear infinite;
 	}
 }
 

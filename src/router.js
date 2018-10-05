@@ -2,8 +2,6 @@ import Vue        from 'vue'
 import Router     from 'vue-router'
 import About      from '@/views/About.vue'
 import Resume     from '@/views/Resume.vue'
-import Portfolio  from '@/views/Portfolio.vue'
-import Contact    from '@/views/Contact.vue'
 
 Vue.use(Router)
 
@@ -13,12 +11,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'about',
+      name: 'About',
       component: About
     },
     {
       path: '/resume',
-      name: 'resume',
+      name: 'Resume',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -26,13 +24,17 @@ export default new Router({
     },
     {
       path: '/portfolio',
-      name: 'portfolio',
+      name: 'Portfolio',
       component: () => import(/* webpackChunkName: "portfolio" */ './views/Portfolio.vue')
     },
     {
       path: '/contact',
-      name: 'contact',
+      name: 'Contact',
       component: () => import(/* webpackChunkName: "contact" */ './views/Contact.vue')
+    },
+    {
+      path: '*',
+      redirect: '/'
     }
   ]
 })

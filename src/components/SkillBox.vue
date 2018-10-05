@@ -1,11 +1,11 @@
 <template>
 	<div class="s-box">
-	    <h4 class="category">{{catename}}</h4>
-	    <Skill 
-	      v-for="skill in skills"
-	      :key="skill.id"
-	      :skill="skill"
-	    />
+		<h4 class="category">{{catename}}</h4>
+		<Skill 
+		v-for="skill in skills"
+		:key="skill.id"
+		:skill="skill"
+		/>
 	</div>
 </template>
 
@@ -13,11 +13,11 @@
 import Skill from './Skill.vue';
 
 export default {
-  name: 'SkillBox',
-  props: ['skills', 'catename'],
-  components: {
-  	Skill
-  }
+	name: 'SkillBox',
+	props: ['skills', 'catename'],
+	components: {
+		Skill
+	}
 }
 
 

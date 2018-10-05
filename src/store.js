@@ -4,13 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {
-  	indicator_show: true
-  },
-  mutations: {
-
-  },
-  actions: {
-
-  }
+	state: {
+		indicator_show: true
+	}
 })

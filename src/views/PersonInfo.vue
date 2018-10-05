@@ -3,12 +3,12 @@
 export default  {
   name: 'PersonInfo',
   data: function(){
-  	return {
-  		name: '黃彥竣',
-	  	birthday: '1989.01.06',
-	  	email: 'zaq9716643@gmail.com',
-	  	github: 'https://github.com/VergilHuang'
-  	}
+    return {
+      name: '黃彥竣',
+      birthday: '1989.01.06',
+      email: 'zaq9716643@gmail.com',
+      github: 'https://github.com/VergilHuang'
+    }
   }
 }
 
@@ -30,28 +30,27 @@ export default  {
         <div class="vg-info-box">
         <div class="vg-info">
             <span class="info-icon"><i class="far fa-user"></i></span>
-            <span class="info-title">Name</span>
+            <span class="info-title"> Name</span>
             <p class="info">{{ name }}</p>
         </div>
         <div class="vg-info">
             <span class="info-icon"><i class="far fa-calendar-alt"></i></span>
-            <span class="info-title">Birthday</span>
+            <span class="info-title"> Birthday</span>
             <p class="info">{{ birthday }}</p>
         </div>
         </div>
         <div class="vg-info-box">
           <div class="vg-info">
               <span class="info-icon"><i class="far fa-envelope"></i></span>
-              <span class="info-title">E-mail</span>
+              <span class="info-title"> E-mail</span>
               <p class="info">{{ email }}</p>
             </div>
             <div class="vg-info">
               <span class="info-icon"><i class="fab fa-github"></i></span>
-              <span class="info-title">Github</span>
-              <p class="info"><a href="https://github.com/VergilHuang" title="Github link"</a>{{ github }}</p>
+              <span class="info-title"> Github</span>
+              <p class="info"><a href="https://github.com/VergilHuang" title="Github link"></a>{{ github }}</p>
             </div>  
         </div>   
       </div>
-    
   </div>
 </template>
