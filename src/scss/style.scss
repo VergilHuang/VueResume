@@ -467,16 +467,10 @@ body{
 			.vg-info-box{
 				display: inline-block;
     			text-align: left;
+    			width: 100%;
 				.vg-info{
 					font-size: 1.15rem;
 				}	
-			}
-
-			.vg-info-box:nth-child(1){
-				width: 35%;
-			}
-			.vg-info-box:nth-child(2){
-				width: 64%;
 			}
 		}
 	}

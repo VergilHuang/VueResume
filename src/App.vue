@@ -16,7 +16,7 @@
 <script>
 import Navigation from './views/Navigation.vue';
 import PersonInfo from './views/PersonInfo.vue';
-import Indicator from './views/Indicator.vue';
+import Indicator from './components/Indicator.vue';
 
 export default {
   name: 'App',

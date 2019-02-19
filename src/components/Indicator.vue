@@ -1,7 +1,7 @@
 <template>
 	<transition name="slowfade">	
 		<div v-if="show" class="mask-view">
-			<div class="indicator-box">
+			<div class="indicator-box" :class="{fade : turnFade}">
 				<div class="lds-dual-ring-outer">
 					<div class="lds-dual-ring">
 						<img src="../assets/logo-01.png" alt="animate icon">
@@ -17,16 +17,28 @@
 		name: 'Indicator',
 		data: function(){
 			return{
+				turnFade: false,
 				show: true
 			}
 		},
 		mounted: function(){
-			this.show = false;
-		}
+			var self = this;
+			setTimeout(function(){
+				self.turnFade = true;
+			},1000)
+			setTimeout(function(){
+				self.show = false;
+			},1300);
+		},
+		components: {}
 	}
 </script>
 
 <style lang="scss">
+.fade{
+	opacity: 0;
+	transition: all 0.5s linear;
+}
 .mask-view{
 	position: fixed;
 	top: 0;
@@ -38,13 +50,14 @@
 	
 	.indicator-box{
 		position: relative;
-		padding: 39vh 0;
-		left: -2%;
+		padding: 36vh 0;
+		left: -2.5%;
 		width: 300px;
 		margin: auto;
 		text-align: center;
 	}
 }
+
 .lds-dual-ring-outer{
 	position: relative;
 	display: inline-block;
@@ -88,7 +101,6 @@
 		height: 50px;
 		top: 31px;
 		left: 28px;
-		animation: rotate-3d .5s linear infinite;
 	}
 }
 
@@ -117,8 +129,4 @@
 		transform: rotateY(360deg);
 	}
 }
-
-// @media screen and (max-width: 680px){
-	
-// }
 </style>

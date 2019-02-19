@@ -38,7 +38,7 @@
 
 <script>
 
-import GoogleMap from './GoogleMap.vue';
+import GoogleMap from '../components/GoogleMap.vue';
 
 export default {
 	name: 'Contact',

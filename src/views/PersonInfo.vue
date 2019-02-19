@@ -4,7 +4,7 @@ export default  {
   name: 'PersonInfo',
   data: function(){
     return {
-      name: '黃彥竣',
+      name: 'Vergil',
       birthday: '1989.01.06',
       email: 'zaq9716643@gmail.com',
       github: 'https://github.com/VergilHuang'
