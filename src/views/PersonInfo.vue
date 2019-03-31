@@ -15,7 +15,6 @@ export default  {
 </script>
 
 <template>
-  
   <div class="person-info box-border shadower">
       <div class="n-intro">
         <h3 class="n-name">Vergil Huang</h3>

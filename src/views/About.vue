@@ -4,7 +4,7 @@
 			<h3>About me</h3>
 			<p class="about-text">民國八十六年隨家庭離開台灣前往中國大陸深圳生活，親眼見證大陸的經濟崛起。民國九十七年回到台灣就讀中原大學。11年的大陸生活經驗，鑄就了我無與倫比的適應能力。</p>
 			<p class="about-text">大學時就讀工業與系統工程科系。在一次C語言的課程中喜歡上了編程這件事，後來修習了自動化倉儲系統編程與自走車設計並參加了校際比賽獲得第三名，也從此喜歡上了編程的道路。</p>
-			<p class="about-text">第一份工作是在台北市一家科技公司擔任<strong>iOS工程師</strong>，跟著小組成員一起設計了兩款基於藍牙功能，用於自動同步Web database資料與硬體信標資料的企業版App，與一款基於藍牙信標的定點公車服務App。第二年開始負責產品部門管理工作，同時全面接手網站系統開發部門的<strong>網頁前端開發工作</strong>與部分的後端架構設計，進修過SSCP網路資訊安全課程，了解網路攻防基礎。開發過<a class="t-link" href="https://taotalk.tycg.gov.tw/" target="_blank">桃園市市政信箱網站</a>、<a class="t-link" href="https://crpd.sfaa.gov.tw/" target="_blank">CRPD身心障礙者權利公約網站</a>與部分相關的內部系統。</p>
+			<p class="about-text">第一份工作是在台北市一家科技公司擔任<b>iOS工程師</b>，跟著小組成員一起設計了兩款基於藍牙功能，用於自動同步Web database資料與硬體信標資料的企業版App，與一款基於藍牙信標的定點公車服務App。第二年開始負責產品部門管理工作，同時全面接手網站系統開發部門的<b>網頁前端開發工作</b>與部分的後端架構設計，進修過SSCP網路資訊安全課程，了解網路攻防基礎。開發過<a class="t-link" href="https://taotalk.tycg.gov.tw/" target="_blank">桃園市市政信箱網站</a>、<a class="t-link" href="https://crpd.sfaa.gov.tw/" target="_blank">CRPD身心障礙者權利公約網站</a>與部分相關的內部系統。</p>
 		</section>
 		<section>
 			<h3>My Service</h3>

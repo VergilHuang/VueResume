@@ -31,6 +31,17 @@ module.exports = {
   //     .add('./src/index.js')
   //     .end();
   // },
+     chainWebpack: (config) => {
+       config
+       .module
+       .rule('eslint')
+       .use('eslint-loader')
+       .options({
+         fix: true,
+         autoFixOnSave: true
+       })
+     }
+
 
   // vue-loader options
   // https://vue-loader.vuejs.org/en/options.html

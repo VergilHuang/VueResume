@@ -39,7 +39,7 @@ $h_line_height: 23rem;
 			top: -12px;
 			left: 18px;
 			.h-t{
-				font-family: 'Signika', serif;
+				font-family: 'Noto Sans TC','微軟正黑體', sans-serif;
 				font-weight: 500;
 				font-size: 1.35rem;
 				color: #222;
@@ -51,9 +51,9 @@ $h_line_height: 23rem;
 				color: #555;
 			}
 			.h-m{
-			    font-size: 1.05rem;
+			    font-size: 1rem;
 			    line-height: 1.6;
-			    color: #888;
+			    color: #555;
 			    padding-top: 10px;
 			}
 		}
