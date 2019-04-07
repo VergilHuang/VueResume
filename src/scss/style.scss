@@ -16,12 +16,6 @@ a{
 	transition-duration: .2s;
 }
 
-body{
-	// background: linear-gradient(to bottom, #f0f0fa 0%, #faf0f0 54%, #f0f0f0 100%);;
-	background: linear-gradient(to bottom, #e8e8fa 0%, #FAE8DF 54%, #e8e8e8 100%);
-	color: #222;
-}
-
 p{
 	font-family: 'Noto Sans TC','微軟正黑體', sans-serif;
 }
@@ -40,9 +34,19 @@ p{
 	overflow: hidden;
 }
 
+.bg-cover{
+
+	background: linear-gradient(to bottom, #e8e8fa 0%, #FAE8DF 54%, #e8e8e8 100%);
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #222;
+}
+
 #app{
 	width:$content_width;
-	margin: 60px auto;
+	margin: auto;
+	padding-top: 60px;
 }
 
 .person-info{

@@ -1,15 +1,17 @@
 <template>
-  <div id="app">
-    <PersonInfo/>
-    <div class="content">
-      <Navigation/>
-      <div id='nav' class="dynamic-content box-border shadower">
-        <transition name="fade" mode="out-in">
-          <router-view/>
-        </transition>
+  <div class="bg-cover">
+    <div id="app">
+      <PersonInfo/>
+      <div class="content">
+        <Navigation/>
+        <div id='nav' class="dynamic-content box-border shadower">
+          <transition name="fade" mode="out-in">
+            <router-view/>
+          </transition>
+        </div>
       </div>
+      <Indicator/>
     </div>
-    <Indicator/>
   </div>
 </template>
 
