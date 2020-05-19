@@ -44,6 +44,12 @@ $h_line_height: 23rem;
 				font-size: 1.35rem;
 				color: #222;
 			}
+			.h-j{
+				font-family: 'Noto Sans TC','微軟正黑體', sans-serif;
+				font-weight: 500;
+				font-size: 1rem;
+				color: #333;
+			}
 			.h-d{
 				font-family: 'Signika', serif;
 				font-weight: 200;
@@ -85,10 +91,10 @@ div[id^="h-"]{
 	height: 5rem;
 }
 #h-w1{
-	height: $h_line_height;
+	height: 35rem;
 }
 #h-w2{
-	height: $h_line_height;
+	height: 29rem;
 }
 #h-w3{
 	height: $h_line_height;
@@ -97,7 +103,7 @@ div[id^="h-"]{
 	height: 5rem;
 }
 #h-e1{
-	height: $h_line_height;
+	height: 19rem;
 }
 #h-e2{
 	height: $h_line_height;

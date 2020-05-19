@@ -47,12 +47,13 @@ p{
 	width:$content_width;
 	margin: auto;
 	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .person-info{
 	width: $person_width;
 	height: 580px;
-	display: inline-block;
+	// display: inline-block;
 	background: #fff;
 	float: left;
 

@@ -1,12 +1,12 @@
 module.exports = {
-	// Project deployment base
+  // Project deployment base
   // By default we assume your app will be deployed at the root of a domain,
   // e.g. https://www.my-app.com/
   // If your app is deployed at a sub-path, you will need to specify that
   // sub-path here. For example, if your app is deployed at
   // https://www.foobar.com/my-app/
   // then change this to '/my-app/'
-  baseUrl: '/',
+  publicPath: '/',
 
   // where to output built files
   // outputDir: 'dist',
@@ -31,16 +31,17 @@ module.exports = {
   //     .add('./src/index.js')
   //     .end();
   // },
-     chainWebpack: (config) => {
-       config
-       .module
-       .rule('eslint')
-       .use('eslint-loader')
-       .options({
-         fix: true,
-         autoFixOnSave: true
-       })
-     }
+  chainWebpack: (config) => {
+    console.log(config);
+    config
+      .module
+      .rule('eslint')
+      .use('eslint-loader')
+      .options({
+        fix: true,
+        autoFixOnSave: true
+      })
+  },
 
 
   // vue-loader options
@@ -76,17 +77,17 @@ module.exports = {
 
   // configure webpack-dev-server behavior
   // devServer: {
-    // open: process.platform === 'darwin',
-    // host: '0.0.0.0',
-    // port: 8081,
-    // https: false,
-    // hotOnly: false,
-    // See https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#configuring-proxy
-    // proxy: 'http://my-app.test',
-    // before: () => {},
+  // open: process.platform === 'darwin',
+  // host: '0.0.0.0',
+  // port: 8081,
+  // https: false,
+  // hotOnly: false,
+  // See https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#configuring-proxy
+  // proxy: 'http://my-app.test',
+  // before: () => {},
   // },
 
   // options for 3rd party plugins
-  // pluginOptions: {},
+  pluginOptions: {},
 
 }
