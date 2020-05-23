@@ -111,7 +111,40 @@ div[id^="h-"]{
 #h-e3{
 	height: $h_line_height;
 }
+@media screen and (max-width: 1300px){
+	#h-w1{
+		height: 40rem;
+	}
+	#h-w2{
+		height: 36rem;
+	}
+	#h-e1{
+		height: 20rem;
+	}
+}
+@media screen and (max-width: 1180px){
+	#h-w1{
+		height: 52rem;
+	}
+	#h-w2{
+		height: 45rem;
+	}
+	#h-e1{
+		height: 24rem;
+	}
+}
 
+@media screen and (max-width: 998px){
+	#h-w1{
+		height: 47rem;
+	}
+	#h-w2{
+		height: 43rem;
+	}
+	#h-e1{
+		height: 24rem;
+	}
+}
 
 @media screen and (max-width: 680px){
 	.history{
