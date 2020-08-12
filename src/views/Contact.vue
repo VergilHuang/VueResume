@@ -14,7 +14,7 @@
           </li>
           <li class="c-line">
             <span class="c-title">Job:</span>
-            <span class="c-text">不安分的前端工程師</span>
+            <span class="c-text">資深前端工程師</span>
           </li>
           <li class="c-line">
             <span class="c-title">E-mail:</span>
