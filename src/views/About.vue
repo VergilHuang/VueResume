@@ -109,7 +109,7 @@ export default {
             { id: 3, title: "React", percentage: 92 },
             { id: 4, title: "Angular", percentage: 73 },
             { id: 5, title: "Vue", percentage: 79 },
-            { id: 5, title: "jQuery", percentage: 92 }
+            { id: 6, title: "jQuery", percentage: 92 }
           ]
         },
         {
