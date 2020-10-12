@@ -1,5 +1,6 @@
 <template>
   <div class="bg-cover">
+    <Amoeba class="bg-cover-amoeba" />
     <div id="app">
       <PersonInfo />
       <div class="content">
@@ -19,14 +20,16 @@
 import Navigation from "./views/Navigation.vue";
 import PersonInfo from "./views/PersonInfo.vue";
 import Indicator from "./components/Indicator.vue";
+import Amoeba from "./components/Amoeba.vue";
 
 export default {
   name: "App",
   components: {
     Navigation,
     PersonInfo,
-    Indicator
-  }
+    Indicator,
+    Amoeba,
+  },
 };
 </script>
 

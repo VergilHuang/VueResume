@@ -35,12 +35,22 @@ p{
 }
 
 .bg-cover{
-
 	background: linear-gradient(to bottom, #e8e8fa 0%, #FAE8DF 54%, #e8e8e8 100%);
-  background-position: center;
+  	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #222;
+	min-height: 100vh;
+}
+
+.bg-cover-amoeba{
+	position: fixed;
+    z-index: 0;
+    bottom: -5%;
+    top: -5%;
+    left: -6%;
+    right: 5%;
+
 }
 
 #app{
@@ -53,9 +63,9 @@ p{
 .person-info{
 	width: $person_width;
 	height: 580px;
-	// display: inline-block;
 	background: #fff;
 	float: left;
+	transform: translateZ(0px);
 
 	.n-intro{
 	    padding: 20px 22px;
@@ -192,7 +202,6 @@ p{
 		
 		.nav-right{
 			float: right;
-			display: inline-block;
 			.menu-btn{
 				font-size: 1.2rem;
 				color: #000;
@@ -302,7 +311,7 @@ p{
 		section{
 			padding: 27px 26px 46px;
 			
-			h3{
+			h1{
 				font-weight: 600;
 				font-size: 1.5rem;
 				margin-bottom: 12px;

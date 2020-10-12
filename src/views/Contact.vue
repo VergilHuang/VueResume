@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <section>
-      <h3>Contact Informations</h3>
+      <h1>Contact Informations</h1>
       <div class="contact-w">
         <ul class="c-info-box">
           <li class="c-line">
@@ -14,7 +14,7 @@
           </li>
           <li class="c-line">
             <span class="c-title">Job:</span>
-            <span class="c-text">資深前端工程師</span>
+            <span class="c-text">前端工程師</span>
           </li>
           <li class="c-line">
             <span class="c-title">E-mail:</span>
@@ -27,23 +27,23 @@
         </ul>
       </div>
     </section>
-    <section>
+    <!-- <section>
       <h3>Workshop Position</h3>
       <div class="c-map shadower">
         <GoogleMap />
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
 <script>
-import GoogleMap from "../components/GoogleMap.vue";
+// import GoogleMap from "../components/GoogleMap.vue";
 
 export default {
   name: "Contact",
   components: {
-    GoogleMap
-  }
+    // GoogleMap,
+  },
 };
 </script>
 
