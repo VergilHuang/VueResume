@@ -268,7 +268,7 @@ p{
 			border-radius: 8px;
 			overflow: hidden;
 			z-index: 1000;
-			transition: all .8s cubic-bezier(0.57, 0.14, 0.62, 1.31);
+			transition: all .4s cubic-bezier(0.57, 0.14, 0.62, 1.31);
 			background: rgba(34,34,34,0.88);
 		    .menu-item{
 		    	border-bottom: 1px solid #eaeaea;
@@ -449,6 +449,7 @@ p{
 	#app{
 		width:$content_width;
 		margin: 0 auto;
+		padding-top: 0;
 	}
 
 	.person-info{

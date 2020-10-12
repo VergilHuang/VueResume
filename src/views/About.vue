@@ -65,14 +65,14 @@ export default {
           icon: "desktop",
           title: "Web Development",
           text:
-            "Web開發經驗兩年，曾獨立完成兩個中型專案，進修過SSCP網路安全課程。擅長RWD技術，設計自適應網站。熟知網頁構成技術，擅長優化網頁，優化首頁生成速度與網頁的瀏覽效率。使用Work-flow優化工具，標準化上線流程。",
+            "Web開發經驗兩年，曾獨立完成兩個中型專案，進修過SSCP網路安全課程。擅長RWD/AWD技術。熟知網頁構成技術，擅長Performance Optimization，優化首頁生成速度與網頁的瀏覽效率。使用Webpack優化專案架構，提升團隊的Coding體驗也減少部署成本。",
         },
         {
           id: 2,
           icon: "people-carry",
           title: "Cross-functional Cooperation",
           text:
-            "跨領域合作能力，擁有行動端與網頁前端技術能力並且熟知後端與網路架構運行原理。曾兼任技術型PM，可勝任大部分跨部門的合作工作。",
+            "跨領域合作能力，擁有行動端與網頁前端技術能力並且熟知後端與網路架構運行原理。曾兼任技術型PM，可勝任研究團隊跨部門的合作工作。",
         },
         {
           id: 3,
@@ -85,7 +85,7 @@ export default {
           icon: "eye",
           title: "Grouth Hacker",
           text:
-            "喜歡研究分析產品的變更與流量變化的關係。依照使用者被動資料反饋，與團隊激盪假定優化或變更重點。經過週期性實驗，以低成本換取明顯的流量成長率。",
+            "喜歡研究分析產品的變更與流量變化的關係。研究使用者資料反饋，與團隊激盪假定優化或變更重點。經過週期性A/B test，找出突破成長的路徑。",
         },
       ],
       skills_data: [
@@ -95,7 +95,7 @@ export default {
           skills: [
             { id: 1, title: "Javascript", percentage: 92 },
             { id: 2, title: "HTML5", percentage: 88 },
-            { id: 3, title: "CSS (SCSS)", percentage: 93 },
+            { id: 3, title: "CSS", percentage: 93 },
           ],
         },
         {
@@ -103,11 +103,12 @@ export default {
           cate_name: "Front-end Framework",
           skills: [
             { id: 1, title: "Bootstrap", percentage: 83 },
-            { id: 2, title: "W3CSS", percentage: 85 },
-            { id: 3, title: "React", percentage: 92 },
-            { id: 4, title: "Angular", percentage: 73 },
+            { id: 2, title: "W3CSS", percentage: 80 },
+            { id: 2, title: "Ant Design", percentage: 90 },
+            { id: 3, title: "React(Hooks)", percentage: 96 },
+            { id: 4, title: "Angular", percentage: 64 },
             { id: 5, title: "Vue", percentage: 79 },
-            { id: 6, title: "jQuery", percentage: 92 },
+            { id: 6, title: "jQuery", percentage: 85 },
           ],
         },
         {
@@ -123,7 +124,7 @@ export default {
           id: 4,
           cate_name: "Version Control",
           skills: [
-            { id: 1, title: "Git", percentage: 92 },
+            { id: 1, title: "Git", percentage: 84 },
             { id: 2, title: "SVN", percentage: 58 },
             { id: 3, title: "Harvest", percentage: 50 },
           ],
@@ -143,7 +144,7 @@ export default {
           cate_name: "Systems",
           skills: [
             { id: 1, title: "Windows", percentage: 73 },
-            { id: 2, title: "Mac (Linux)", percentage: 95 },
+            { id: 2, title: "Mac (Linux)", percentage: 90 },
             { id: 3, title: "Ubuntu (Linux)", percentage: 78 },
           ],
         },
