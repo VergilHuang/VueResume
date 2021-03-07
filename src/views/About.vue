@@ -3,33 +3,29 @@
     <section>
       <h1>About me</h1>
       <p class="about-text">嗨，我是Vergil。</p>
-      <!-- <p class="about-text">"不管到哪裡，都要找到屬於自己的目標，並盡可能做到最好。"</p>
-      <br />
-      <p class="about-text">2015/3 ~ 2018/4， 采聲科技</p>
-      <p class="about-text">以三人小組推廣與研發SBeacon產品，兩年內拿到並完成了近20,000,000的合作簽約。之後轉職前端工程師，獨立完成了3個中型專案。</p>
-      <p class="about-te">2019/4 ~ 2020/5， 吉聯數位科技娛樂有限公司</p>
-      <p class="about text">依照產品需求，打造了可高效處理上百支外觀結構各異的web app專案架構，實現所有資源檔獨立且統一管理，大大減少了佈署成本與專案管理成本。</p>-->
-
-      <!-- <p
-        class="about-text"
-      >1997年，隨家庭離開台灣前往中國大陸深圳生活，親眼見證大陸的經濟崛起。後來回到台灣就讀中原大學。11年的大陸生活經驗，鑄就了我無與倫比的適應能力。</p> -->
       <p class="about-text">
-        2008年，大學就讀工業與系統工程科系。在一次C語言的課程中喜歡上了編程這件事，後來修習了自動化倉儲系統編程與自走車設計並參加了校際比賽獲得第三名，也從此喜歡上了編程的道路。
+        技術領域的
+        <b>挑戰者</b>，擁抱未知並保持謙遜。喜歡與人共享知識，並得到回饋。
       </p>
-      <p class="about-text">
-        2015年，在台北市一家科技公司擔任
-        <b>iOS工程師</b>，跟著小組成員一起設計了兩款基於藍牙功能，用於自動同步Web
-        database資料與硬體信標資料的企業版App，與一款基於藍牙信標的定點公車服務App。第二年開始負責產品部門管理工作，同時全面接手網站系統開發部門的
-        <b>網頁前端開發工作</b>與部分的後端架構設計，進修過SSCP網路資訊安全課程，了解網路攻防基礎。開發過
-        <a class="t-link" href="https://taotalk.tycg.gov.tw/" target="_blank">桃園市市政信箱網站</a>、
-        <a class="t-link" href="https://crpd.sfaa.gov.tw/" target="_blank">CRPD身心障礙者權利公約網站</a
-        >與部分相關的內部系統。
-      </p>
-
-      <p class="about-text">
-        2019年，在吉聯數位擔任前端團隊主管，依照產品需求，打造了可高效處理上百支外觀結構各異的web
-        app專案架構，實現所有資源檔獨立且統一管理，大大減少了佈署成本與專案管理成本。
-      </p>
+      <ol class="list-wrapepr">
+        <li class="about-text">
+          使用
+          <b>Webpack</b>優化專案架構。
+        </li>
+        <li class="about-text">
+          建立團隊程式規範，使用
+          <b>ESLint</b> 約束 Coding Style 一致性，引入
+          <b>Typescript</b> 進行 Components 與 API 等介面靜態定義與檢查。提升團隊整體開發體驗與效率。
+        </li>
+        <li class="about-text">程式結構盡可能遵守 SOLID 原則，降低因需求變更而需要大量修改的風險。</li>
+        <li
+          class="about-text"
+        >透過 Tech Talk 和 Daily Traning ，提升團隊產出的 Code Quality，增加專案可維護性與可擴充性，甚至增進團隊的活力。</li>
+        <li
+          class="about-text"
+        >結構化SASS/SCSS規劃:除了使用NormalizeCSS or ResetCSS定義網站HTML一致性樣式外，結合預處理功能運用Programmable特性寫出高動態好維護的樣式表結構，杜絕樣式衝突。</li>
+        <li class="about-text">More...</li>
+      </ol>
     </section>
     <section>
       <h1>My Service</h1>
@@ -65,27 +61,28 @@ export default {
           icon: "desktop",
           title: "Web Development",
           text:
-            "Web開發經驗兩年，曾獨立完成兩個中型專案，進修過SSCP網路安全課程。擅長RWD/AWD技術。熟知網頁構成技術，擅長Performance Optimization，優化首頁生成速度與網頁的瀏覽效率。使用Webpack優化專案架構，提升團隊的Coding體驗也減少部署成本。",
+            `曾進修過SSCP網路安全課程。熟悉RWD設計。熟知網頁構成技術，擅長優化網站效能，加速首頁First content的載入效率。
+            擅長使用Webpack優化專案架構，提升團隊的開發體驗也減少部署時間成本。`,
         },
         {
           id: 2,
           icon: "people-carry",
           title: "Cross-functional Cooperation",
           text:
-            "跨領域合作能力，擁有行動端與網頁前端技術能力並且熟知後端與網路架構運行原理。曾兼任技術型PM，可勝任研究團隊跨部門的合作工作。",
+            "跨領域合作能力，擁有行動端與Web前端技術能力並且對後端開發有一定的經驗，可勝任研究團隊跨部門的合作工作。",
         },
         {
           id: 3,
           icon: "universal-access",
           title: "Accessbility Design",
-          text: "熟知無障礙網站設計流程，為無障礙人士設計好用的網站。設計的網站曾通過國家2A等級無障礙標章。",
+          text: "熟知無障礙網站設計流程，為無障礙人士設計易用的網站。設計的網站曾通過國家2A等級無障礙標章。",
         },
         {
           id: 4,
           icon: "eye",
           title: "Grouth Hacker",
           text:
-            "喜歡研究分析產品的變更與流量變化的關係。研究使用者資料反饋，與團隊激盪假定優化或變更重點。經過週期性A/B test，找出突破成長的路徑。",
+            "喜歡研究分析APP的流程變更與流量變化的關係。研究使用者足跡資料反饋，與團隊激盪假定優化或試錯方向。",
         },
       ],
       skills_data: [
@@ -93,22 +90,38 @@ export default {
           id: 1,
           cate_name: "Front-end",
           skills: [
-            { id: 1, title: "Javascript", percentage: 92 },
+            { id: 1, title: "Javascript", percentage: 96 },
             { id: 2, title: "HTML5", percentage: 88 },
-            { id: 3, title: "CSS", percentage: 93 },
+            { id: 3, title: "CSS", percentage: 96 },
           ],
         },
         {
           id: 2,
           cate_name: "Front-end Framework",
           skills: [
-            { id: 1, title: "Bootstrap", percentage: 83 },
-            { id: 2, title: "W3CSS", percentage: 80 },
-            { id: 2, title: "Ant Design", percentage: 90 },
             { id: 3, title: "React(Hooks)", percentage: 96 },
+            { id: 5, title: "Vue", percentage: 92 },
             { id: 4, title: "Angular", percentage: 64 },
-            { id: 5, title: "Vue", percentage: 79 },
             { id: 6, title: "jQuery", percentage: 85 },
+          ],
+        },
+        {
+          id: 6,
+          cate_name: "UI Library",
+          skills: [
+            { id: 1, title: "Bootstrap3", percentage: 83 },
+            { id: 2, title: "W3CSS", percentage: 80 },
+            { id: 3, title: "Ant Design", percentage: 88 },
+            { id: 4, title: "Element UI", percentage: 84 },
+            { id: 5, title: "Vant UI", percentage: 90 },
+          ],
+        },
+        {
+          id: 7,
+          cate_name: "Animation Library",
+          skills: [
+            { id: 1, title: "Anime JS", percentage: 70 },
+            { id: 2, title: "Animate CSS", percentage: 60 },
           ],
         },
         {
@@ -116,7 +129,6 @@ export default {
           cate_name: "Mobile Phone",
           skills: [
             { id: 1, title: "Objective-C", percentage: 70 },
-            { id: 2, title: "Swift", percentage: 30 },
             { id: 3, title: "Java", percentage: 62 },
           ],
         },
@@ -126,7 +138,6 @@ export default {
           skills: [
             { id: 1, title: "Git", percentage: 84 },
             { id: 2, title: "SVN", percentage: 58 },
-            { id: 3, title: "Harvest", percentage: 50 },
           ],
         },
         {
@@ -134,18 +145,9 @@ export default {
           cate_name: "Back-end",
           skills: [
             { id: 1, title: "Java", percentage: 62 },
-            { id: 2, title: "SQL", percentage: 58 },
+            { id: 2, title: "Express", percentage: 76 },
+            { id: 2, title: "Koa", percentage: 0 },
             { id: 3, title: "Python", percentage: 48 },
-            { id: 4, title: "Golang", percentage: 28 },
-          ],
-        },
-        {
-          id: 6,
-          cate_name: "Systems",
-          skills: [
-            { id: 1, title: "Windows", percentage: 73 },
-            { id: 2, title: "Mac (Linux)", percentage: 90 },
-            { id: 3, title: "Ubuntu (Linux)", percentage: 78 },
           ],
         },
       ],

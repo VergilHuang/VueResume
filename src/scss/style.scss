@@ -66,6 +66,8 @@ p{
 	background: #fff;
 	float: left;
 	transform: translateZ(0px);
+  position: sticky;
+  top: 20px;
 
 	.n-intro{
 	    padding: 20px 22px;
@@ -143,6 +145,7 @@ p{
 			font-family: 'Signika', serif;
 			color: #555;
 			font-weight: 500;
+      margin-left: 4px;
 		}
 
 		.info{
@@ -328,20 +331,7 @@ p{
 				    top: -14px;
 				}
 			}
-			.about-text{
-				font-size: 1.1rem;
-				line-height: 1.6;
-				margin-top: 8px;
-			}
 		}
-
-		// @import "_about";
-
-		// @import "_resume";
-		
-		// @import "_portfolio";
-		
-		// @import "_contact"
 	}
 }
 
