@@ -5,17 +5,17 @@
       <p class="about-text">嗨，我是Vergil。</p>
       <p class="about-text">
         技術領域的
-        <b>挑戰者</b>，擁抱未知並保持謙遜。喜歡與人共享知識，並得到回饋。
+        <b>挑戰者</b>，擁抱未知並保持謙遜。喜歡與人分享知識，抱持樂觀態度。
       </p>
-      <ol class="list-wrapepr">
+      <!-- <ol class="list-wrapepr">
         <li class="about-text">
           使用
           <b>Webpack</b>優化專案架構。
         </li>
         <li class="about-text">
           建立團隊程式規範，使用
-          <b>ESLint</b> 約束 Coding Style 一致性，引入
-          <b>Typescript</b> 進行 Components 與 API 等介面靜態定義與檢查。提升團隊整體開發體驗與效率。
+          <b>ESLint</b> 約束編寫習慣，引入
+          <b>Typescript</b> 進行介面靜態定義與檢查。提升團隊整體開發體驗與效率。
         </li>
         <li class="about-text">程式結構盡可能遵守 SOLID 原則，降低因需求變更而需要大量修改的風險。</li>
         <li
@@ -25,7 +25,7 @@
           class="about-text"
         >結構化SASS/SCSS規劃:除了使用NormalizeCSS or ResetCSS定義網站HTML一致性樣式外，結合預處理功能運用Programmable特性寫出高動態好維護的樣式表結構，杜絕樣式衝突。</li>
         <li class="about-text">More...</li>
-      </ol>
+      </ol>-->
     </section>
     <section>
       <h1>My Service</h1>
@@ -61,15 +61,14 @@ export default {
           icon: "desktop",
           title: "Web Development",
           text:
-            `曾進修過SSCP網路安全課程。熟悉RWD設計。熟知網頁構成技術，擅長優化網站效能，加速首頁First content的載入效率。
-            擅長使用Webpack優化專案架構，提升團隊的開發體驗也減少部署時間成本。`,
+            `曾進修過SSCP網路安全課程。熟悉RWD設計。擅長優化網站效能，提升使用者體驗。使用Webpack優化專案架構，改善開發體驗，優化程式結構，提升彈性、擴充性與可維護性。`,
         },
         {
           id: 2,
           icon: "people-carry",
           title: "Cross-functional Cooperation",
           text:
-            "跨領域合作能力，擁有行動端與Web前端技術能力並且對後端開發有一定的經驗，可勝任研究團隊跨部門的合作工作。",
+            "喜歡跨領域合作方案，結合不同領域的智慧，激盪出意想不到的火花，並可勝任研究團隊跨部門的合作工作。",
         },
         {
           id: 3,
@@ -82,7 +81,7 @@ export default {
           icon: "eye",
           title: "Grouth Hacker",
           text:
-            "喜歡研究分析APP的流程變更與流量變化的關係。研究使用者足跡資料反饋，與團隊激盪假定優化或試錯方向。",
+            "喜歡研究分析APP的每次變更與流量變化的關係。研究使用者足跡資料反饋，與團隊激盪假定優化或快速試錯方向。",
         },
       ],
       skills_data: [

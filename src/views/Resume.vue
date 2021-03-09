@@ -12,31 +12,59 @@
           </div>
           <div id="h-w1">
             <div class="h-c">
-              <h5 class="h-t">吉聯數位科技娛樂有限公司</h5>
+              <h5 class="h-t">鑫城商務有限公司</h5>
               <h6 class="h-j">Front-End Team Lead</h6>
-              <h6 class="h-d">2019/4 ~ 2020/5</h6>
-              <p class="h-m">
-                在吉聯帶領2位Senior與5位Junior前端成員。根據需求與未來目標研究技術選型與架構規劃。打造類微前端概念的專案架構，
-                在專案內獨立出可複用的Libraries/Components/Assets等資源，透過自由組裝，降低耦合度，可集中管理複數的app，
-                配合storybook可自由挑選各式各樣的component組合。透過webpack根據app名稱生成最精簡程式碼，配合Genkins做自動部署。
-                所有資源統一管理，避免程式碼碎片化、定義檔設定不同步、靜態資源重複囤積、後續維護困難，需求修改困難等問題。另外也減少每次重複性作業，
-                優化團隊工作流，增加可偵錯性。部署效率與一般專案相比可提升數十倍。跨部門合作時幫助整合與解釋不同領域的語言並建議方法，使事情能夠盡可能高效的進行。確保團隊的每個人都能保持資訊同步。
-              </p>
+              <h6 class="h-d">2020/11 ~ 2021/4</h6>
+              <div class="h-m">
+                <ol class="resume-list">
+                  <li>前端成員4位。日常多與 Team Member 有一定的技術交流。</li>
+                  <li>根據業務需求調整Webpack架構，優化部署流程。</li>
+                  <li>重構專案!為多版型專案拆分多入口設計，付出額外的時間重寫可複用的 Model/Component 封裝成統一維護的 Libraries，降低程式耦合度。大大解決了專案的維護與擴充難度!</li>
+                  <li>使用由下至上的component設計，可根據不同的設計語言轉換功能與封裝。</li>
+                  <li>優化團隊工作流。提升部署效率。跨部門合作時幫助整合與解釋不同領域的語言並建議方法，使事情能夠盡可能高效的進行。確保團隊的每個人都能保持資訊同步。</li>
+                </ol>
+                <Tag v-for="tag of tags[0]" :key="tag">{{tag}}</Tag>
+              </div>
             </div>
           </div>
           <div id="h-w2">
             <div class="h-c">
+              <h5 class="h-t">吉聯數位科技娛樂有限公司</h5>
+              <h6 class="h-j">Front-End Team Lead</h6>
+              <h6 class="h-d">2019/4 ~ 2020/5</h6>
+              <div class="h-m">
+                <ol class="resume-list">
+                  <li>前端成員8位，定期舉辦Tech Talk活動。</li>
+                  <li>根據需求與未來目標研究技術選型與架構規劃。</li>
+                  <li>在多版型專案內整理出可複用的 Model/Component/Interface/Enum 封裝成可複用的 Libraries，避免定義失效，避免重複造輪子。</li>
+                  <li>使用由下至上的component設計，可根據不同的設計語言轉換功能與封裝。</li>
+                  <li>引入Typescript定義介面，Coding-Time Auto Complete提升 Coding 效率與體驗，透過靜態檢查減少 Bug 出現的可能。</li>
+                  <li>透過webpack根據版型名稱建構多入口專案，配合Genkins做自動部署。</li>
+                  <li>優化團隊工作流。提升部署效率。跨部門合作時幫助整合與解釋不同領域的語言並建議方法，使事情能夠盡可能高效的進行。確保團隊的每個人都能保持資訊同步。</li>
+                </ol>
+                <Tag v-for="tag of tags[1]" :key="tag">{{tag}}</Tag>
+              </div>
+            </div>
+          </div>
+          <div id="h-w3">
+            <div class="h-c">
               <h5 class="h-t">采聲科技股份有限公司 (ESound)</h5>
               <h6 class="h-j">Software Engineer</h6>
               <h6 class="h-d">2015/3 ~ 2018/4</h6>
-              <p class="h-m">
-                實現SBeacon新產品研發與推廣。擔任該產品負責人處理相關業務，其中包含：iOS，Android程式研發實作並上架。
-                硬體藍芽4.0客製化內部封包使用AES256加入Timestamp實現動態加密。向中華電信與政府相關單位推廣產品，
-                承包專案攤平研發成本再到獲取利潤。帶領團隊3人（1位後端工程師，1位移動端工程師，1位UI
-                designer），本人在其中負責iOS的程式開發與上架管理。產品部門穩定後，轉至系統研發部門兼任前端工程師，
-                進修過SSCP網路安全類別證照課程。開發過公司主頁、桃園市市政信箱與社會局身心障礙權利公約網站。網站單日流量常態超過千人，
-                離開後所有專案長期正常運作且易於維護。
-              </p>
+              <div class="h-m">
+                <ol class="resume-list">
+                  <li>系統研發部門擔任前端工程師，進修過SSCP網路安全類別證照課程。</li>
+                  <li>以 Bootstrap3 jQuery 開發桃園市市政信箱網頁，後端 server 為 tomcat，使用 Java 寫API處理前端需求。網站符合 a11y 規範，獲得無障礙2A等級標章。網站單日流量常態超過千人。</li>
+                  <li>以 Bootstrap3 開發公司產品主頁，將舊頁面翻新，改善視覺流暢度。</li>
+                  <li>以 W3CSS 開發社會局身心障礙權利公約網站，比起Bootstrap ，W3CSS 有更輕量化的特色，可縮短網站First content響應時間。</li>
+                </ol>
+
+                <br />實體產品開發經驗: 實現SBeacon新產品研發與推廣。擔任該產品負責人處理相關業務，其中包含：iOS，Android程式研發實作並上架。
+                硬體藍芽4.0客製化內部封包使用AES256實現動態加密。向中華電信與政府相關單位推廣產品，
+                從承包專案攤平研發成本最終交付成品，專案時程兩年，在其中的過程學到了有價值的事物。帶領團隊3人（1位後端工程師，1位移動端工程師，1位UI
+                designer）。
+              </div>
+              <Tag v-for="tag of tags[2]" :key="tag">{{tag}}</Tag>
             </div>
           </div>
           <!-- <div id="h-w3">
@@ -50,7 +78,7 @@
             </div>
           </div>-->
         </div>
-        <div class="tl-box">
+        <!-- <div class="tl-box">
           <div class="tl-icon">
             <i class="fas fa-graduation-cap"></i>
           </div>
@@ -77,11 +105,30 @@
               >在中國大陸就讀台商學校，是一所以英語學習為主的學校，在校期間以第二名優異成績畢業。曾獲得校長獎、董事長獎等榮譽獎項，也曾擔任兩岸交流媒介參與官方活動，到雲南地區愛心助學當地2位小朋友到高中畢業的學雜費。</p>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </section>
   </div>
 </template>
+
+<script>
+
+export default {
+  name: 'Resume',
+  data() {
+    return {
+      tags: [
+        ['Vue', 'Vue-router', "Vuex", "Typescript", "Element UI", "Vant UI", "Webpack4", "PostCSS"],
+        ['React', 'React-router', "Redux", "React-saga", "Typescript", "Ant Design", "Webpack4", "PostCSS", "Storybook"],
+        ['jQuery', 'Bootstrap3', 'W3CSS', 'SASS', 'Gulp', 'ChartJS', 'JSP', "Java", "Tomcat", "animateCSS", "a11y"]
+      ]
+    }
+  },
+  components: {
+    Tag: () => import('@/components/Tag')
+  }
+}
+</script>
 
 <style lang="scss">
 @import "../scss/_resume.scss";

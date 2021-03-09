@@ -6,7 +6,7 @@ $h_line_height: 23rem;
 	padding: 40px 10px;
 	.tl-box{
 	    position: relative;
-	    width: 42%;
+	    width: 75%;
 	    // height: 800px;
 	    display: inline-block;
 	    margin: 0 3%;
@@ -57,10 +57,19 @@ $h_line_height: 23rem;
 				color: #555;
 			}
 			.h-m{
-			    font-size: 1rem;
-			    line-height: 1.6;
-			    color: #555;
-			    padding-top: 10px;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #555;
+        padding-top: 10px;
+
+        .resume-list{
+          list-style: disc;
+          margin-left: 20px;
+          li {
+            font-size: 1.05rem;
+            font-weight: 500;
+          }
+        }
 			}
 		}
 	}
@@ -80,7 +89,7 @@ div[id^="h-"]{
 	    border-radius: 50%;
 	    border: 2px solid #5069c3;
 	    position: relative;
-	    top: 97%;
+	    top: 99%;
 	    left: -22px;
 	    background: white;
         z-index: 1;
@@ -91,13 +100,13 @@ div[id^="h-"]{
 	height: 5rem;
 }
 #h-w1{
-	height: 35rem;
+	height: 26rem;
 }
 #h-w2{
-	height: 29rem;
+	height: 28rem;
 }
 #h-w3{
-	height: $h_line_height;
+	height: 28rem;
 }
 #h-e0{
 	height: 5rem;
@@ -113,10 +122,13 @@ div[id^="h-"]{
 }
 @media screen and (max-width: 1300px){
 	#h-w1{
-		height: 40rem;
+		height: 29rem;
 	}
 	#h-w2{
-		height: 36rem;
+		height: 32rem;
+	}
+  #h-w3{
+		height: 35rem;
 	}
 	#h-e1{
 		height: 20rem;
@@ -124,10 +136,13 @@ div[id^="h-"]{
 }
 @media screen and (max-width: 1180px){
 	#h-w1{
-		height: 52rem;
+		height: 34rem;
 	}
 	#h-w2{
-		height: 45rem;
+		height: 39rem;
+	}
+  #h-w3{
+		height: 42rem;
 	}
 	#h-e1{
 		height: 24rem;
@@ -136,10 +151,13 @@ div[id^="h-"]{
 
 @media screen and (max-width: 998px){
 	#h-w1{
-		height: 47rem;
+		height: 30rem;
 	}
 	#h-w2{
-		height: 43rem;
+		height: 35rem;
+	}
+  #h-w3{
+		height: 40rem;
 	}
 	#h-e1{
 		height: 24rem;
