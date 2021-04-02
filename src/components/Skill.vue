@@ -12,27 +12,27 @@ import anime from "animejs";
 
 export default {
   name: "Skill",
-  data: function() {
+  props: ["skill"],
+  data() {
     return {
       skillData: { percentage: 0 },
       percentage: "0%"
     };
   },
-  mounted: function() {
-    var self = this;
+  mounted() {
+    this.percentage = this.skill.percentage;
 
     anime({
-      targets: self.skillData,
-      percentage: self.skill.percentage,
+      targets: this.skillData,
+      percentage: this.skill.percentage,
       round: 1,
       // easing: "linear",
       duration: 1500,
       easing: "cubicBezier(0.515, 0.005, 0.52, 1.005)",
-      update: function() {
-        self.percentage = self.skillData.percentage + "%";
+      update: () => {
+        this.percentage = this.skillData.percentage + "%";
       }
     });
   },
-  props: ["skill"]
 };
 </script>

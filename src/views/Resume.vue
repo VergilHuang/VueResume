@@ -19,7 +19,7 @@
                 <ol class="resume-list">
                   <li>前端成員4位。日常多與 Team Member 有一定的技術交流。</li>
                   <li>根據業務需求調整Webpack架構，優化部署流程。</li>
-                  <li>重構現存專案。為多版型專案拆分多入口設計，重構可複用的 Model/Component 封裝成統一維護的 Libraries，降低程式耦合度。大大解決了專案的維護與擴充難度!</li>
+                  <li>重構現存專案。為多版型專案拆分多入口設計，重構可複用的 Model/Component 封裝成統一維護的 Libraries，減少程式耦合度。大幅降低專案的維護與擴充難度。</li>
                   <li>使用由下至上的component設計，可根據不同的設計語言轉換功能與封裝。</li>
                   <li>優化團隊工作流。提升部署效率。跨部門合作時幫助整合與解釋不同領域的語言並建議方法，使事情能夠盡可能高效的進行。確保團隊的每個人都能保持資訊同步。</li>
                 </ol>
@@ -36,9 +36,9 @@
                 <ol class="resume-list">
                   <li>前端成員8位，定期舉辦Tech Talk活動。</li>
                   <li>根據需求與未來目標研究技術選型與架構規劃。</li>
-                  <li>在多版型專案內整理出可複用的 Model/Component/Interface/Enum 封裝成可複用的 Libraries，避免定義失效，避免重複造輪子。</li>
+                  <li>在多版型專案內整理出可複用的 Model/Component/Interface/Enum 封裝成Shared Libraries，避免定義失效，重複造輪子。</li>
                   <li>使用由下至上的component設計，可根據不同的設計語言轉換功能與封裝。</li>
-                  <li>引入Typescript定義介面，Coding-Time Auto Complete提升 Coding 效率與體驗，透過靜態檢查減少 Bug 出現的可能。</li>
+                  <li>引入Typescript定義介面，提升開發效率與體驗，建少前後端的在業務上的溝通時間成本，並透過靜態檢查減少 Bug 出現的可能。</li>
                   <li>透過webpack根據版型名稱建構多入口專案，配合Genkins做自動部署。</li>
                   <li>優化團隊工作流。提升部署效率。跨部門合作時幫助整合與解釋不同領域的語言並建議方法，使事情能夠盡可能高效的進行。確保團隊的每個人都能保持資訊同步。</li>
                 </ol>
@@ -118,9 +118,9 @@ export default {
   data() {
     return {
       tags: [
-        ['Vue', 'Vue-router', "Vuex", "Typescript", "Element UI", "Vant UI", "Webpack4", "PostCSS"],
-        ['React', 'React-router', "Redux", "React-saga", "Typescript", "Ant Design", "Webpack4", "PostCSS", "Storybook"],
-        ['jQuery', 'Bootstrap3', 'W3CSS', 'SASS', 'Gulp', 'ChartJS', 'JSP', "Java", "Tomcat", "animateCSS", "a11y"]
+        ['Vue', 'Vue-router', "Vuex", "Typescript", "Element UI", "Vant UI", "Webpack4", "GitLab-CI/CD", "Git"],
+        ['React', 'React-router', "Redux", "React-saga", "Typescript", "Ant Design", "Webpack4", "Storybook", "Git", "Genkins"],
+        ['jQuery', 'Bootstrap3', 'W3CSS', 'SASS', 'Gulp', 'ChartJS', 'JSP', "Java", "Tomcat", "animateCSS", "a11y", "Git"]
       ]
     }
   },

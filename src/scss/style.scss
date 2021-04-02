@@ -11,6 +11,9 @@ $person_width: 280px;
 $division: 32px;
 $main_color: #5069c3;
 
+body::-webkit-scrollbar {
+  display: none;
+}
 
 a{
 	transition-duration: .2s;

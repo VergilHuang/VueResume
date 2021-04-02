@@ -103,10 +103,10 @@ div[id^="h-"]{
 	height: 26rem;
 }
 #h-w2{
-	height: 28rem;
+	height: 30rem;
 }
 #h-w3{
-	height: 28rem;
+	height: 30rem;
 }
 #h-e0{
 	height: 5rem;
@@ -151,13 +151,13 @@ div[id^="h-"]{
 
 @media screen and (max-width: 998px){
 	#h-w1{
-		height: 30rem;
+		height: 45rem;
 	}
 	#h-w2{
-		height: 35rem;
+		height: 52rem;
 	}
   #h-w3{
-		height: 40rem;
+		height: 45rem;
 	}
 	#h-e1{
 		height: 24rem;
@@ -171,7 +171,7 @@ div[id^="h-"]{
 		    position: relative;
 		    width: 100%;
 		    display: block;
-		    padding-right: 40px;
+		    // padding-right: 40px;
 		    margin-bottom: 50px;
 		}
 	}

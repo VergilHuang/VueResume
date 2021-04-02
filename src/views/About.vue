@@ -5,8 +5,12 @@
       <p class="about-text">嗨，我是Vergil。</p>
       <p class="about-text">
         技術領域的
-        <b>挑戰者</b>，擁抱未知並保持謙遜。喜歡與人分享知識，抱持樂觀態度。
+        <b>挑戰者</b>，擁抱未知並保持謙遜。喜歡與人分享知識，抱持強烈的好奇心與樂觀態度。
       </p>
+      <p class="about-text">平台建置經驗豐富，擅長從零開始建置專案，並可以在不同方案內 Trade-off.</p>
+      <p class="about-text">重構專案經驗豐富；致力於在合理時空範圍下對 Lagcy Code 做優化或重寫。</p>
+      <p class="about-text">精通 Vue/React 與Typescript。個人認為，Typescript是優秀專案的基石，在優秀的專案中都是覺得不可或缺的。</p>
+      <p class="about-text">高度的責任感 - 君以國士待我 我必國士報之。</p>
       <!-- <ol class="list-wrapepr">
         <li class="about-text">
           使用
@@ -68,7 +72,7 @@ export default {
           icon: "people-carry",
           title: "Cross-functional Cooperation",
           text:
-            "喜歡跨領域合作方案，結合不同領域的智慧，激盪出意想不到的火花，並可勝任研究團隊跨部門的合作工作。",
+            "喜歡跨領域合作方案，結合不同領域的智慧，激盪出意想不到的火花。",
         },
         {
           id: 3,
@@ -98,10 +102,9 @@ export default {
           id: 2,
           cate_name: "Front-end Framework",
           skills: [
-            { id: 3, title: "React(Hooks)", percentage: 96 },
-            { id: 5, title: "Vue", percentage: 92 },
-            { id: 4, title: "Angular", percentage: 64 },
-            { id: 6, title: "jQuery", percentage: 85 },
+            { id: 1, title: "React(Hooks)", percentage: 96 },
+            { id: 2, title: "Vue", percentage: 92 },
+            { id: 3, title: "Angular", percentage: 64 },
           ],
         },
         {
@@ -128,7 +131,7 @@ export default {
           cate_name: "Mobile Phone",
           skills: [
             { id: 1, title: "Objective-C", percentage: 70 },
-            { id: 3, title: "Java", percentage: 62 },
+            { id: 2, title: "Java", percentage: 62 },
           ],
         },
         {
@@ -145,8 +148,7 @@ export default {
           skills: [
             { id: 1, title: "Java", percentage: 62 },
             { id: 2, title: "Express", percentage: 76 },
-            { id: 2, title: "Koa", percentage: 0 },
-            { id: 3, title: "Python", percentage: 48 },
+            { id: 3, title: "Koa", percentage: 0 },
           ],
         },
       ],
